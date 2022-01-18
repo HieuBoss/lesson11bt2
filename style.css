@@ -1,0 +1,123 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.tong{
+	background-color: #ebebeb;
+	width: 100%;
+	height: 800px;
+}
+.dong1{
+	background-color: #3f3567;
+	height: 8%;
+	width: 100%;
+	float: left;
+}
+.dong1 img{
+	position: absolute;
+	margin: 20px 0 0 300px;
+}
+.dong1 input{
+	position: relative;
+	margin: 20px 0 0 500px;
+	width: 400px;
+	height: 22px;
+}
+.dong2{
+	background-color: #e4e4e3;
+	width: 100%;
+	height: 5%;
+	float: left;
+}
+.dong2 ul{
+	list-style-type: none;
+	display: flex;
+	padding: 0px;
+	margin:0 0 0 300px;
+	height: 40px;
+}
+.dong2 ul li{
+	padding-left: 10px;
+	border: 1px solid grey;
+	text-transform: uppercase;
+}
+.dong2 li{
+	padding: 10px;
+}
+.dong2 li:hover{
+	background-color: white;
+	color: purple;
+}
+.dong3{
+	background-color: greenyellow;
+	width: 80%;
+	height: 87%;
+	margin: 0 auto;
+}
+.tren{
+	background-color: white;
+	width: 100%;
+	height: 35%;
+	float: left;
+}
+.item{
+	float: left;
+	margin:10px 0 0 15px;
+	border-bottom: orange 1px solid;
+}
+.item img{
+	width: 100%;
+	height: 95px;
+
+}
+.item a{
+	text-decoration: none;
+	color: blue;
+}
+.item p{
+	text-align: center;
+}
+.item:hover{
+	background-color: #96ddeb;
+	color: blue;
+
+}
+.duoi{
+	background-color: yellow;
+	width: 100%;
+	height: 65%;
+	float: left;
+}
+.trai{
+	background-color: white;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.phai{
+	background-color: white;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.phai ul{
+	list-style-type: none;
+}
+.phai ul li{
+	border: 1px solid grey;
+	text-transform: uppercase;
+}
+.phai li{
+	padding: 10px;
+	display: flex;
+}
+.phai li:hover{
+	background-color: #ecf0f1;
+	color: blue;
+	border-top: 2px solid purple;
+}
+.phai img{
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+}
